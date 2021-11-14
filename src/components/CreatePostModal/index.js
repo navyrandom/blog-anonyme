@@ -37,7 +37,7 @@ export default function CreatePostModal() {
         <TextField
           className={classes.title}
           required
-          label='Title'
+          placeholder='Title'
           value={data.title}
           onChange={(e) => setData({ ...data, title: e.target.value })}
         />

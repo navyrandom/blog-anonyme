@@ -6,15 +6,12 @@ export default function ListMenu(props) {
     <div className="menuWrapper">
       <ul>
         <a href="/">
-          <li>Our Works</li>
+          <li>Sharing Space</li>
         </a>
         <a href="/aboutus">
-     
-          <li>About Us</li>
+          <li>The Concept</li>
         </a>
-
-        <a href="">
-        
+        <a href="/contact">
           <li>Contact Us</li>
         </a>
       </ul>

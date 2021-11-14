@@ -5,10 +5,10 @@ import useStyles from "./styles";
 function Header(props) {
   const classes = useStyles();
   return (
-    <Typography variant="h4" align="center" className={classes.container}>
+    <div className={classes.container}>
      <img alt='may-logo' src='./may.png' className={classes.logo} />
-      MÂY GALERY
-    </Typography>
+      <h1 style={{display:'inline'}}>MÂY GALERY</h1>
+    </div>
   );
 }
 

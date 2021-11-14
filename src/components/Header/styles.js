@@ -7,11 +7,12 @@ export default makeStyles((theme) => ({
         marginBottom: '20px',
         fontWeight: 'lighter',
         padding:'5px 0',
-        borderRadius:'5px'
+        borderRadius:'5px',
+        textAlign:'center'
     },
     logo:{
         width: '80px', 
         height: 'auto',
-        padding: '0 25px'
+        padding: '0 '
     }
 }))

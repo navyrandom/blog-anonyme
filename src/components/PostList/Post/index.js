@@ -67,7 +67,7 @@ export default function Post({ post }) {
               </MenuItem>
               <MenuItem onClick={handleModify}>
                 Modify building...
-                <CreateIcon /> building...
+                <CreateIcon />
               </MenuItem>
             </Menu>
           </IconButton>

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./components/Header";
 import PostList from "./components/PostList";
 import AboutUs from "./pages/AboutUs";
+import ContactUs from "./pages/ContactUs";
 import Main from "./pages/Main";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             render={(matchProps) => <PostList {...matchProps} />}
           />
           <Route exact path="/aboutus" component={AboutUs} />
+          <Route exact path="/contact" component={ContactUs} />
         </Switch>
       </Router>
     </Container>
