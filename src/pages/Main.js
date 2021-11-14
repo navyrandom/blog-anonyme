@@ -1,7 +1,5 @@
 import { Container, Fab, Modal } from "@material-ui/core";
 import React from "react";
-import Header from "../components/Header";
-import PostList from "../components/PostList";
 import AddIcon from "@material-ui/icons/Add";
 import MenuIcon from "@mui/icons-material/Menu";
 import useStyles from "./styles";
