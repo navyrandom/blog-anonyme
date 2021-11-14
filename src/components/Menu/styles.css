@@ -1,0 +1,25 @@
+.menuWrapper {
+    background-color: white;
+    text-align: center
+}
+
+ul {
+    list-style: none;
+    font-size: 70px;
+    padding: 0
+}
+
+.menuWrapper a{
+ text-decoration: none;
+ color: black;
+}
+.menuWrapper a:hover {
+    color: #355C7D;
+   
+}
+li:hover {
+    background-color : #FCD2D1;
+    padding: 0.1em 0.2em;
+
+
+}

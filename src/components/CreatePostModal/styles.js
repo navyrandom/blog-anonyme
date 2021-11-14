@@ -27,6 +27,15 @@ export default makeStyles((theme) => ({
     },
     footer: {
         marginTop: '10px',
+    },
+    createButton:{
+        color:'white',
+        backgroundColor:'#90AACB',
+        '&:hover':{
+            backgroundColor: '#FCD2D1',
+            color:'black'
+        },
+        fontWeight:'bolder'
     }
     }
 ))

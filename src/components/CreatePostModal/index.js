@@ -59,12 +59,12 @@ export default function CreatePostModal() {
         <div className={classes.footer}>
           <Button
             variant='contained'
-            color='primary'
+            className={classes.createButton}
             component='span'
             fullWidth
             onClick={onSubmit}
           >
-            Create
+            Create 🎉
           </Button>
         </div>
       </form>

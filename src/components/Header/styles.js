@@ -2,10 +2,16 @@ import { makeStyles } from "@material-ui/core";
 
 export default makeStyles((theme) => ({
     container: {
-        backgroundColor: theme.palette.primary.main,
+        backgroundColor: '#355C7D',
         color: 'white',
         marginBottom: '20px',
         fontWeight: 'lighter',
-        padding:'5px 0'
+        padding:'5px 0',
+        borderRadius:'5px'
+    },
+    logo:{
+        width: '80px', 
+        height: 'auto',
+        padding: '0 25px'
     }
 }))
